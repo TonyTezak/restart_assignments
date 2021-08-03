@@ -46,6 +46,31 @@ var peopleWhoWantToSeeMadMaxFuryRoad = [
       console.log ("Please invite " + peopleWhoWantToSeeMadMaxFuryRoad[i].name + " inside to come see the movie.")
   }else{
       console.log ("Please escort " + peopleWhoWantToSeeMadMaxFuryRoad[i].name + " to the next showing of Care Bears: Hearts That Care")
-
   }
+}
+
+const numOne = [2, 5, 435, 4, 3] 
+var sum = 0
+/*const numTwo = [1, 1, 1, 1, 3]   
+const numThree = [9, 3, 4, 2]    */
+
+for (i = 0; i < numOne.length; i++){
+    sum += numOne[i]
+    //console.log(sum)
+     if (sum  % 2 === 0){
+        console.log("The first light is off")
+    }else{
+        console.log("The first light is on")
+    } 
+}
+
+const numTwo = [1, 1, 1, 1, 3]
+var sum = 0
+for (i = 0; i < numTwo.length; i++){
+    sum += numTwo[i]
+    if (sum % 2 === 0){
+        console.log("The second light is off")
+    }else{
+        console.log("The second light is on")
+    }
 }
