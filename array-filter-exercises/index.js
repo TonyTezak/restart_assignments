@@ -51,7 +51,7 @@ console.log(peopleWhoBelongToTheIlluminati) */
 //5) Make a filtered list of all the people who are old enough to see The Matrix 
 //(older than 18)
 
-const wantMovie = [
+/* const wantMovie = [
     { name: "Angelina Jolie", age: 80 },
     { name: "Eric Jones", age: 2 },
     { name: "Paris Hilton", age: 5 },
@@ -63,4 +63,4 @@ const ofAge = wantMovie.filter(function(adult){
         return true
     }
 })
-console.log(ofAge)
+console.log(ofAge) */
