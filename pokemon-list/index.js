@@ -2,11 +2,15 @@
 
 axios.get("https://api.vschool.io/pokemon")
 // .then(response => console.log(response.data)) 
-.then(response => {
-     for (let i = 0; i < response.data.length; i++){
+
+ .then(response => {
+    const gottaGetThemAll = response.data.objects[0].pokemon
+    console.log(gottaGetThemAll)
+      for (let i = 0; i < gottaGetThemAll.length; i++){
         const h1 = document.createElement('h1')
-        h1.textContent = response.data.objects[i].pokemon.name
+        h1.textContent = gottaGetThemAll[i].name
         document.body.appendChild(h1)
-    }
+    } 
 }) 
-.catch(error => console.log(error))
+.catch(error => console.log(error)) 
+
